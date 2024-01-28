@@ -9,7 +9,7 @@ services:
     privileged: true
     build:
       context: .
-    image: ghcr.io/daddy-knows-best/tofu-env:main
+    image: ghcr.io/daddy-knows-best/tofu-env:latest
     volumes:
       # For future ssh use in development
       - ~/.ssh:/home/ubuntu/.ssh:ro
